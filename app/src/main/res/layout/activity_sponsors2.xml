@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/wallpaper"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="40dp"
+        android:text="Our Sponsors"
+        android:textColor="#283618"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Search"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#283618"
+        android:textSize="20dp"
+        android:importantForAutofill="no"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/textview_border"
+        android:drawableRight="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/Ibutton5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:height="150dp"
+        android:background="@drawable/carrefour"
+        android:contentDescription="@string/bottom_sheet_behavior"
+        android:text="carrefour" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/Ibutton5"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="70px"
+        android:text="Carrefour"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibutton6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/Ibutton5"
+        android:background="@drawable/gem"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibutton6"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Grand Egyptian Museum"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibutton7"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/Ibutton5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:height="230dp"
+        android:background="@drawable/starbucks"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/ibutton7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="70px"
+        android:text="Starbucks"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibutton8"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/ibutton6"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/ibutton7"
+        android:height="230dp"
+        android:background="@drawable/zedpark"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/ibutton8"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="10dp"
+        android:text="Zed Park"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibutton9"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/ibutton7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:height="230dp"
+        android:background="@drawable/macdonalds"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/ibutton9"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="70px"
+        android:text="McDonald's"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibutton10"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/ibutton8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/ibutton9"
+        android:height="230dp"
+        android:background="@drawable/adidas"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/ibutton10"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="5dp"
+        android:text="Adidas"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+</RelativeLayout>
